@@ -1,0 +1,26 @@
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<h1 class="front">LUCID</h1>
+
+<div class="buttonContainer">
+    <a class="button add font" href="/new">Add</a>
+</div>
+
+<div class="container">
+    <% stuff.forEach(v => { %> 
+        <div class="cards">
+            <div class="font"><%=v.name %></div>
+            <img src="<%=v.img %>" height ="150" width="200"/>
+
+            <div class="cardButtonsParent">
+                <a class="button submit font" href="/<%=v.id%>">Edit</a>
+
+
+                <form class="removeFormMargin" action="/<%=v.id%>?_method=DELETE" method="POST">
+                    <input class="button cancel font" type="submit" value="Delete"/>
+                </form>
+            </div>
+        </div>
+
+    <% }) %>
+</div>

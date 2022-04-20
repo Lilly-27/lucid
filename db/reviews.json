@@ -1,0 +1,92 @@
+[
+    {
+        "company": "TikTok",
+        "img": "https://cliply.co/wp-content/uploads/2021/02/372102780_TIKTOK_ICON_400px.gif",
+        "location": {"city": "New York City", "state": "New York"},
+        "title": "Global Account Director",
+        "compensation": 305000,
+        "years": 3,
+        "gender": "male",
+        "review": "Imagine the power of going into salary negotiations for a role... and you already know how much someone on that team makes. Transparency is how I'm helping to close the gap."
+    },
+    {
+        "company": "Accenture",
+        "img": "https://1000logos.net/wp-content/uploads/2021/04/Accenture-logo-768x432.png",
+        "location": {"city": "Boston", "state": "Massachusetts"},
+        "title": "Business & Implementation Arch Analyst",
+        "compensation": 91000,
+        "years": 1,
+        "gender": "female",
+        "review":"The process to apply to Accenture was amazing after connecting with a fellow Latina in Tech. I am still in the process of negotiating a relocation package with my recruiter." 
+    },
+    {
+        "company": "Google",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png",
+        "location": {"city": "Chicago", "state": "Illinois"},
+        "title": "Software Engineer",
+        "compensation": 150000,
+        "years": 2,
+        "gender": "female",
+        "review": "Work/life balance. What balance? All those perks and benefits are an illusion. They keep you at work and they help you to be more productive."
+    },
+    {
+        "company": "Twiter",
+        "img": "https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png",
+        "location": {"city": "San Diego", "state": "California"},
+        "title": "Software Engineer",
+        "compensation": 160662,
+        "years": 1,
+        "gender": "male",
+        "review": "Extremely dysfunctional leadership (everyone is trying to not ruffle the feathers to collect their juicy paycheck)"
+    },
+    {
+        "company": "Meta",
+        "img": "https://cdn-icons-png.flaticon.com/512/6033/6033716.png",
+        "location": {"city": "Austin", "state": "Texas"},
+        "title": "Software Engineer",
+        "compensation": 162000,
+        "years": 2,
+        "gender": "female",
+        "review": "I amm still a bit new, but I have very good impressions so far. I have 10 years exp at 5+ other companies (although no other tech companies) and this is the best by a good margin."
+    },
+    {
+        "company": "Instagram",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png?20200512141346",
+        "location": {"city": "Pittsburgh", "state": "Pennsylvannia"},
+        "title": "Software Engineer",
+        "compensation": 141582,
+        "years": 1,
+        "gender": "male",
+        "review": "I believe I can make more money elsewhere as a software engineer. However, the people here are nice enough."
+    },
+    {
+        "company": "Netflix",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Netflix_icon.svg/814px-Netflix_icon.svg.png?20161117184123",
+        "location": {"city": "Miami", "state": "Florida"},
+        "title": "Customer Service Representative",
+        "compensation": 35880,
+        "years": 3,
+        "gender": "female",
+        "review": "Good pay and good mentors here to teach us. However, people are often let go for no good reason."
+    },
+    {
+        "company": "LinkedIn",
+        "img": "https://cdn-icons-png.flaticon.com/512/174/174857.png",
+        "location": {"city": "New York City", "state": "New York"},
+        "title": "Software Engineer",
+        "compensation": 148951,
+        "years": 1,
+        "gender": "male",
+        "review": "Great benefits, excellent bonus structure, and lots of perks."
+    },
+    {
+        "company": "Salesforce",
+        "img": "https://cdn.brandfolder.io/I6FML9WY/as/pglteg-1lxqf4-79i4cc/Salesforce.svg",
+        "location": {"city": "Chicago", "state": "Illinois"},
+        "title": "Software Engineer",
+        "compensation": 138903,
+        "years": 2,
+        "gender": "female",
+        "review": "Extremely fast paced due to continuous growth. However, there are great benefits to working at Salesforce."
+    }
+]

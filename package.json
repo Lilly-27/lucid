@@ -1,0 +1,27 @@
+{
+  "name": "lucid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lilly-27/lucid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lilly-27/lucid/issues"
+  },
+  "homepage": "https://github.com/Lilly-27/lucid#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
+}
