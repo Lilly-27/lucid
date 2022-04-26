@@ -1,13 +1,37 @@
-<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" type="text/css" href="/style.css"/>
 
 <h1>Edit Your Tea</h1>
-<form class="form" action="/<%=id%>?_method=PUT" method="POST">
+<h3>By you filling out your compensation package with the world, 
+    we are one step closer to a more equitable workplace.</h3>
+<form class="form" action="/<%=id%>/update?_method=PUT" method="POST">
 
     <div class="inputParent">
-        <label class='font' for='name'>Name:</label>
-        <input class='input font' type='text' name='name' value="<%=company%>"/>
-        <label class='font' for="img">Image:</label>
-        <input class='input font' type='text' name='img' value="<%=img%>"/>
+        <label class='font' for='company'>Company Name:</label>
+        <input class='input font' value='<%=company %>' type='text' name='company'/>
+
+        <label class='font' for='img'>Image:</label>
+        <input class='input font' value='<%=img %>' type='text' name='img'/>
+
+        <label class='font' for='city'>City:</label>
+        <input class='input font' value='<%=city %>' type='text' name='title'/>
+
+        <label class='font' for='state'>State:</label>
+        <input class='input font' value='<%=state %>' type='text' name='title'/>
+
+        <label class='font' for='title'>Title:</label>
+        <input class='input font' value='<%=title %>' type='text' name='title'/>
+
+        <label class='font' for='compensation'>Base Pay:</label>
+        <input class='input font' value='<%=compensation %>' type='text' name='compensation'/>
+
+        <label class='font' for='years'>Years at Company:</label>
+        <input class='input font' value='<%=years %>' type='text' name='years'/>
+
+        <label class='font' for='gender'>Gender:</label>
+        <input class='input font' value='<%=gender %>' type='text' name='gender'/>
+
+        <label class='font' for='review'>Tell us about your experience:</label>
+        <input class='input font' value='<%=review %>' type='text' name='review'/>
     </div>
 
     <input class='button font submit' type="submit" />
