@@ -1,25 +1,37 @@
 <link rel="stylesheet" type="text/css" href="/style.css"/>
 
-<h1 class="front">LUCID</h1>
+<div class="photoOne">
+    <img src="https://i.imgur.com/480CTSM.jpg" alt="Image of several people in celebration">
+</div>
 
-<div class="buttonContainer">
-    <a class="button add font" href="/new">Add</a>
+<hr>
+
+<!-- <div class="buttonContainer">
+    <a class="button add font" href="/new">create</a>
+</div> -->
+
+<div class="second-header">
+    <h3>Spilling the Tea</h3>
+    
+    <p>Click on a company's icon to learn about people's salaries.</p>
 </div>
 
 <div class="container">
     <% stuff.forEach(v => { %> 
         <div class="cards">
-            <div class="font"><%=v.company %></div>
-            <img src="<%=v.img %>" height ="150" width="200"/>
+            <a href="/<%=v.id%>"> <img src="<%=v.img %>" height ="150" width="200"/></a>
 
-            <div class="cardButtonsParent">
+            <!-- <div class="cardButtonsParent">
+                <a class="button submit font" href="/<%=v.id%>">View</a>
                 <a class="button submit font" href="/<%=v.id%>/edit">Edit</a>
 
 
                 <form class="removeFormMargin" action="/<%=v.id%>/remove?_method=DELETE" method="POST">
                     <input class="button cancel font" type="submit" value="Delete"/>
-                </form>
-            </div>
+                </form> 
+
+            </div> -->
+            
         </div>
 
     <% }) %>
