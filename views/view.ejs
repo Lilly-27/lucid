@@ -1,2 +1,11 @@
 <link rel="stylesheet" type="text/css" href="/style.css" />
 
+<img src="<%=company.img%>" alt="<%=company.company%>">
+
+
+
+            <a class="button submit font" href="/home/<%=company.id%>/edit">Edit</a>
+
+            <form class="removeFormMargin" action="/home/<%=company.id%>/remove?_method=DELETE" method="POST">
+                <input class="button cancel font" type="submit" value="Delete"/>
+            </form> 
