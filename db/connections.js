@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
+require('dotenv').config()
 
-const cString = "mongodb+srv://cecilia1:cecilia1@cluster0.vpw3n.mongodb.net/lucidDB?retryWrites=true&w=majority"
-
-mongoose.connect(cString);
+mongoose.connect(process.env.DB_URL);
 
 module.exports = mongoose;
