@@ -1,11 +1,23 @@
 <link rel="stylesheet" type="text/css" href="/style.css" />
 
-<img src="<%=company.img%>" alt="<%=company.company%>">
+<div class="view-container">
+    <div class="view-company-img">
+        <img src="<%=company.img%>" class="view-image" alt="<%=company.company%>" width="375" height="auto">
+        <h2 class="view-title">Read the Tea</h2>
+    </div>
 
+    <div class="view-review">
+        <p class="view-description">
+            A person (<%=company.gender%>) from <%=company.city%>, <%=company.state%> said: "<%=company.review%>" <br />
+            Their title at <%=company.company %> was "<%=company.title%>." They were making $<%=company.compensation%> a year, and worked for <%=company.years%> year(s) at <%=company.company%>.
+    </p>
 
-
-            <a class="button submit font" href="/home/<%=company.id%>/edit">Edit</a>
-
-            <form class="removeFormMargin" action="/home/<%=company.id%>/remove?_method=DELETE" method="POST">
-                <input class="button cancel font" type="submit" value="Delete"/>
-            </form> 
+    <div class="new-buttons">
+        <a class="button submit font" href="/home/<%=company.id%>/edit">Edit</a>
+    
+        <form class="removeFormMargin" action="/home/<%=company.id%>/remove?_method=DELETE" method="POST">
+        <input class="button cancel font" type="submit" value="Delete"/>
+        </form> 
+    </div>
+    </div>
+</div>

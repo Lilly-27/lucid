@@ -6,30 +6,18 @@
 
 <hr>
 
-<div class="buttonContainer">
-    <a class="button add font" href="/home/new">create</a>
-</div>
-
     <h3 class="second-header">Spilling the Tea </h3>
     <h4 class="blurb">Click on a company's icon to learn about people's salaries.</h4>
 
+    <div class="buttonContainer">
+        <a class="button add font new-create" href="/home/new">create</a>
+    </div>
 
 <div class="container">
     <% stuff.forEach(v => { %> 
         <div class="cards">
             <a href="/home/<%=v.id%>"> <img src="<%=v.img %>" height ="150" width="200"/></a>
 
-
-            <!-- <div class="cardButtonsParent">
-                <a class="button submit font" href="/<%=v.id%>">View</a>
-                <a class="button submit font" href="/<%=v.id%>/edit">Edit</a>
-
-
-                <form class="removeFormMargin" action="/<%=v.id%>/remove?_method=DELETE" method="POST">
-                    <input class="button cancel font" type="submit" value="Delete"/>
-                </form> 
-
-            </div> -->
             
         </div>
 

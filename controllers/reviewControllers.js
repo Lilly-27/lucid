@@ -26,6 +26,7 @@ router.get('/new', (req, res) => {
 router.get('/:id', (req, res) => {
     Review.findById(req.params.id)
     .then(items => res.render('view', {company:items}))
+    
     .catch(console.error)
 });
 

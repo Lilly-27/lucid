@@ -1,32 +1,53 @@
 <link rel="stylesheet" type="text/css" href="/style.css" />
 
+<div class="new-container">
+    <form class="new-form" action="/home/add" method="POST">
+        <h2>Spill your Tea</h2>
+        <h3></h3>
 
+        <fieldset>
+            <!-- <legend>Company</legend> -->
+            <input class='new-field' type='text' name='company' placeholder="Company's name"/>
+        </fieldset>
 
-<form class="form" action="/home/add" method="POST">
+        <fieldset>
+            <input class='new-field' type='text' name='img' placeholder="Copy/Paste the company's icon"/>
+        </fieldset>
 
-    <div class="inputParent">
-        <label class='font' for='company'>Company Name:</label>
-        <input class='input font' type='text' name='company'/>
+        <fieldset>
+            <input class='new-field' type='text' name='city' placeholder="City"/>
+        </fieldset>
 
-        <label class='font' for='img'>Image:</label>
-        <input class='input font' type='text' name='img'/>
-        <label class='font' for='city'>City:</label>
-        <input class='input font' type='text' name='city'/>
-        <label class='font' for='state'>State:</label>
-        <input class='input font' type='text' name='state'/>
-        <label class='font' for='title'>Title:</label>
-        <input class='input font' type='text' name='title'/>
-        <label class='font' for='compensation'>Base Pay:</label>
-        <input class='input font' type='text' name='compensation'/>
-        <label class='font' for='years'>Years at Company:</label>
-        <input class='input font' type='text' name='years'/>
-        <label class='font' for='gender'>Gender:</label>
-        <input class='input font' type='text' name='gender'/>
-        <label class='font' for='review'>Tell us about your experience:</label>
-        <input class='input font' type='text' name='review'/>
+        <fieldset>
+            <input class='new-field' type='text' name='state' placeholder="State"/>
+        </fieldset>
 
-    </div>
+        <fieldset>
+            <input class='new-field' type='text' name='title' placeholder="Title"/>
+        </fieldset>
+           
+        <fieldset>
+            <input class='new-field' type='text' name='compensation' placeholder="Compensation"/>
+        </fieldset>
+         
+        <fieldset>
+            <input class='new-field' type='text' name='years' placeholder="Years of Experience"/>
+        </fieldset>
 
-    <input class='button font submit' type="submit" />
-    <a  class='button font cancel' href="/home/">Cancel</a>
-</form>
+        <fieldset>
+            <input class='new-field' type='text' name='gender' placeholder="Gender"/>
+        </fieldset>
+
+        <fieldset>
+            <textarea class='new-field' type='text' name='review' placeholder="Type Your message"></textarea>
+        </fieldset>
+            <!-- <label class='font' for='review'>Tell us about your experience:</label>
+            <input class='input font' type='text' name='review'/> -->
+    
+        </div>
+    
+        <input class='button font submit' type="submit" />
+        <a  class='button font cancel' href="/home/">Cancel</a>
+    </form>
+
+</div>
