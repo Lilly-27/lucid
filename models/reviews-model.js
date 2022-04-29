@@ -10,7 +10,7 @@ const ReviewSchema = new mongoose.Schema({
     years: Number,
     gender: String,
     review: String,
-}, {timestamps: true});
+}, {timestamp: true});
 
 const Review = mongoose.model('lucid', ReviewSchema);
 
