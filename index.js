@@ -14,6 +14,9 @@ app.set('view engine', 'ejs');
 app.use(ejsLayout)
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json())
+app.get("/", (req,res) => {
+    res.redirect('/home')
+})
 app.use('/home', reviewControllers);
 
 const PORT = process.env.PORT || 4000
