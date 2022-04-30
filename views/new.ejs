@@ -1,53 +1,63 @@
 <link rel="stylesheet" type="text/css" href="/style.css" />
 
 <div class="new-container">
-    <form class="new-form" action="/home/add" method="POST">
-        <h2>Spill your Tea</h2>
-        <h3></h3>
-
-        <fieldset>
-            <!-- <legend>Company</legend> -->
-            <input class='new-field' type='text' name='company' placeholder="Company's name"/>
-        </fieldset>
-
-        <fieldset>
-            <input class='new-field' type='text' name='img' placeholder="Copy/Paste the company's icon"/>
-        </fieldset>
-
-        <fieldset>
-            <input class='new-field' type='text' name='city' placeholder="City"/>
-        </fieldset>
-
-        <fieldset>
-            <input class='new-field' type='text' name='state' placeholder="State"/>
-        </fieldset>
-
-        <fieldset>
-            <input class='new-field' type='text' name='title' placeholder="Title"/>
-        </fieldset>
-           
-        <fieldset>
-            <input class='new-field' type='text' name='compensation' placeholder="Compensation"/>
-        </fieldset>
-         
-        <fieldset>
-            <input class='new-field' type='text' name='years' placeholder="Years of Experience"/>
-        </fieldset>
-
-        <fieldset>
-            <input class='new-field' type='text' name='gender' placeholder="Gender"/>
-        </fieldset>
-
-        <fieldset>
-            <textarea class='new-field' type='text' name='review' placeholder="Type Your message"></textarea>
-        </fieldset>
-            <!-- <label class='font' for='review'>Tell us about your experience:</label>
-            <input class='input font' type='text' name='review'/> -->
-    
+    <div class="new-form">
+        <div class="form-image">
+            <h2 class="new-title">Spill your Tea</h2>
         </div>
     
-        <input class='button font submit' type="submit" />
-        <a  class='button font cancel' href="/home/">Cancel</a>
-    </form>
+        <form class="new-data" action="/home/add" method="POST">
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='company'/>
+                <label class='field-label' for='company'>Company Name</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='img'/>
+                <label class='field-label' for='img'>Image</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='city'/>
+                <label class='field-label' for='city'>City</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='state'/>
+                <label class='field-label' for='state'>State</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='title'/>
+                <label class='field-label' for='title'>Title</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='compensation'/>
+                <label class='field-label' for='compensation'>Base Pay</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='years'/>
+                <label class='field-label' for='years'>Years at Company</label>
+            </div>
+
+            <div class="input">
+                <input class='new-field' type='text' autocomplete="off" name='gender'/>
+                <label class='field-label' for='gender'>Gender</label>
+            </div>
+
+            <div class="input">
+                <textarea class='new-field' type='text' autocomplete="off" name='review'></textarea>
+                <label class='field-label' for='review'>Tell us about your experience:</label>
+            </div>
+
+
+                <input class='new-submit-btn' type="submit" />
+
+                <a  class='new-cancel-btn' href="/home/">Cancel</a>
+        </form>
+    </div>
 
 </div>
