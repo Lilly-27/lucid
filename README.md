@@ -2,7 +2,7 @@
 
  LUCID is an app where people share their compensation packages (similar to Glassdoor), but with an emphasis on eliminating the wage gap between genders.
 
-[Click here to go to LUCID](https://pure-lake-44231.herokuapp.com/home)
+[Click here to go to LUCID]( https://lvcid.herokuapp.com/)
 
 ## SCREENSHOTS
 ---
