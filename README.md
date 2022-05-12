@@ -7,16 +7,16 @@
 ## SCREENSHOTS
 ---
 When the app loads, you will see this homepage: 
-![Homepage of LUCID](/lib/front-one.png)
-![Homepage of LUCID](/lib/front-two.png)
+![Homepage of LUCID](https://i.imgur.com/fBKTthl.png)
+![Homepage of LUCID](https://i.imgur.com/niOrBc6.png)
 
 
 Once you click on "create," you will be able to input your own review on a company of your choice: 
-![The Create Form](lib/create-form.png)
+![The Create Form](https://i.imgur.com/5uJbG8a.png)
 
 If you click on a company's icon, you will be able to read the review:
 
-![The View Page](lib/view.png)
+![The View Page](https://i.imgur.com/20N6JfE.png)
 
 ## TECHNOLOGIES USED
 ---
@@ -51,3 +51,5 @@ Users are able to:
 - The images are not responsive when the screen is reduced or enlarged.
 
 - When updating a review, the user is redirected to the home page instead of the view page. 
+
+- Currently, only one review can be entered and seen. More schemas need to be created to accomodate more reviews and users.
