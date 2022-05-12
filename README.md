@@ -52,4 +52,4 @@ Users are able to:
 
 - When updating a review, the user is redirected to the home page instead of the view page. 
 
-- Currently, only one review can be entered and seen. More schemas need to be created to accomodate more reviews and users.
+- Currently, only one review can be entered and seen. More schemas need to be created to accommodate more reviews and users.
